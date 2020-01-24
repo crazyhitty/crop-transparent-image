@@ -2,6 +2,8 @@
 
 Trim unnecessary transparent padding from your images.
 
+![](.github/highlight.png)
+
 **NOTE:** Currently, the algorithm I have written to crop the image uses a very brute force approach and its time complexity is O(n^2), so you might face some performance issues with high resolution images.
 
 ## Prerequisites
@@ -25,7 +27,7 @@ python crop.py --input test-images/image_1.png --output cropped-images
 This will crop 'image_1.png' and save it in 'cropped-images' directory.
 
 ```
-python crop.py --input test-images/image_1.png --output cropped-images
+python crop.py --input test-images --output cropped-images
 ```
 
 This will crop all the images in 'test-images' directory and save it in 'cropped-images' directory.
