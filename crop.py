@@ -35,7 +35,7 @@ def crop(image_path: str):
 
     image = Image.open(image_path, 'r')
     width = image.size[0]
-    height = image.size[0]
+    height = image.size[1]
     pixels = image.load()
 
     top = 0
